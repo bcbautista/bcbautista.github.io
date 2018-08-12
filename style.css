@@ -1,6 +1,6 @@
 body {
 	font-family: Arial;
-    background-color: #F0F0F0;
+    background-color: #F0FFFF;
     margin: 0;
     padding: 0;
 }
@@ -9,9 +9,12 @@ body {
     text-align: center;
     background-image: url("header.jpg");
     background-position: center;
-    height: 35%;
+    height: 30%;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
 }
 
 .headertext {
@@ -21,7 +24,7 @@ body {
 
 .content {
 	position: absolute;
-	margin-top: 19%;
+	margin-top: 17%;
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-bottom: 3%;
@@ -50,7 +53,7 @@ body {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	border: 2px solid;
+	border: 2px solid #3B9C9C;
 }
 
 .rightdiv {
@@ -90,5 +93,10 @@ hr {
 
 h1 {
 	font-size: 25px;
-	color: #3f7f6a;
+	color: #3B9C9C;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
