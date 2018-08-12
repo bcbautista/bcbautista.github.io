@@ -1,0 +1,94 @@
+body {
+	font-family: Arial;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-image: url("header.jpg");
+    background-position: center;
+    height: 35%;
+    width: 100%;
+    position: absolute;
+}
+
+.headertext {
+	color: white;
+	font-size: 70px;
+}
+
+.content {
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+
+.leftdiv {
+	width: 20%;
+	float: left;
+}
+
+.imagediv {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.favediv {
+	margin-top: 20px;
+	padding: 20px;
+	background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid;
+}
+
+.rightdiv {
+	float: left;
+    width: 78%;
+    padding-left: 2%;
+}
+
+.infodiv {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration-color: #181818;
+}
+
+.menu {
+	font-size: 14px;
+	padding: 0px;
+	text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #181818;
+    text-decoration: none;
+}
+
+hr {
+    border-top:1px dotted #000;
+}
+
+h1 {
+	font-size: 25px;
+	color: #3f7f6a;
+}
